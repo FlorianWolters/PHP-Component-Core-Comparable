@@ -1,6 +1,6 @@
 {
     "name": "florianwolters/component-core-comparable",
-    "description": "Implements a total ordering on objects.",
+    "description": "Imposes a total ordering on objects as a PHP component.",
     "type": "library",
     "keywords": ["compareTo", "comparable", "comparison", "core"],
     "homepage": "http://github.com/FlorianWolters/PHP-Component-Core-Comparable",
