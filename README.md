@@ -46,6 +46,10 @@ This component is inspired by the following three artifacts of the [Java][26] pr
 
 * [PHP][17] >= 5.4
 
+## Usage
+
+The best documentation for **FlorianWolters\Component\Core\Comparable** are the unit tests, which are shipped in the package. You will find them installed into your [PEAR][10] repository, which on Linux systems is normally `/usr/share/php/test`.
+
 ## Installation
 
 ### Local Installation
@@ -97,10 +101,6 @@ If you are creating a component that relies on **FlorianWolters\Component\Core\C
   </required>
 </dependencies>
 ```
-
-## Usage
-
-The best documentation for **FlorianWolters\Component\Core\Comparable** are the unit tests, which are shipped in the package. You will find them installed into your [PEAR][10] repository, which on Linux systems is normally `/usr/share/php/test`.
 
 ## Development Environment
 
