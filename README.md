@@ -2,25 +2,24 @@
 
 [![Build Status](https://secure.travis-ci.org/FlorianWolters/PHP-Component-Core-Comparable.png?branch=master)](http://travis-ci.org/FlorianWolters/PHP-Component-Core-Comparable)
 
-**FlorianWolters\Component\Core\Comparable** is a simple-to-use [PHP][17] component that implements a total ordering on objects.
+**FlorianWolters\Component\Core\Comparable** is a simple-to-use [PHP][17] component that imposes a total ordering on objects.
 
 ## Introduction
 
-This component is inspired by the following three artifacts:
+This component is inspired by the following three artifacts of the [Java][26] programming language.
 
-* The interface [`java.lang.Comparable`][28] of [Java][26] Platform Standard Edition (SE).
-* The interface [`java.util.Comparator`][29] of [Java][26] Platform SE.
+* The interface [`java.lang.Comparable`][28] of the [Java][26] Platform Standard Edition (SE).
+* The interface [`java.util.Comparator`][29] of the [Java][26] Platform SE.
 * The method [`org.apache.commons.lang3.ObjectUtils.compare`][30] of the [Apache Commons Lang API][27]:
 
 **FlorianWolters\Component\Core\Comparable** consists of two artifacts:
 
-1. The interface `FlorianWolters\Component\Core\ComparableInterface` imposes a *total ordering* on the objects of each class that implements it.
-2. The static class `FlorianWolters\Component\Core\ComparableUtils` which offers comparison operations that impose a *total ordering* on objects.
+1. The interface [`FlorianWolters\Component\Core\ComparableInterface`][31]: Imposes a *total ordering* on the objects of each class that implements it.
+2. The static class [`FlorianWolters\Component\Core\ComparableUtils`][32]: Offers comparison operations that impose a *total ordering* on objects.
 
 ## Features
 
-* The static method `FlorianWolters\Component\Core\ComparableUtils::compare` is `null`-safe.
-* A client can determine if `null` is considered greater than a non-`null` value or if `null` is considered less than a non-`null` value.
+* The static method `FlorianWolters\Component\Core\ComparableUtils::compare` is `null`-safe. A client can determine if `null` is considered greater than a non-`null` value or if `null` is considered less than a non-`null` value.
 * Artifacts tested with both static and dynamic test procedures:
     * Dynamic component tests (unit tests) implemented using [PHPUnit][19].
     * Static code analysis performed using the following tools:
@@ -45,7 +44,7 @@ This component is inspired by the following three artifacts:
 
 ## Requirements
 
-* [PHP][17] >= 5.4
+* [PHP][17] >= 5.3
 
 ## Installation
 
@@ -174,7 +173,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 [20]: http://semver.org
       "Semantic Versioning"
 [24]: http://packagist.org/packages/florianwolters/component-core-comparable
-      "florianwolters/component-core-debugprint - Packagist"
+      "florianwolters/component-core-comparable - Packagist"
 [25]: http://packagist.org
       "Packagist"
 [26]: http://java.com
@@ -185,5 +184,9 @@ You should have received a copy of the GNU Lesser General Public License along w
       "Comparable (Java Platform SE 7)"
 [29]: http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html
       "Comparator (Java Platform SE 7)"
-[30]: http://commons.apache.org/lang/api/org/apache/commons/lang3/ObjectUtils.html#compare(T, T, boolean)
+[30]: http://commons.apache.org/proper/commons-lang/javadocs/api-3.1/org/apache/commons/lang3/ObjectUtils.html#compare%28T,%20T,%20boolean%29
       "ObjectUtils (Commons Lang 3.1 API)"
+[31]: src/php/FlorianWolters/Component/Core/ComparableInterface.php
+      "FlorianWolters\Component\Core\ComparableInterface"
+[32]: src/php/FlorianWolters/Component/Core/ComparableUtils.php
+      "FlorianWolters\Component\Core\ComparableUtils"
