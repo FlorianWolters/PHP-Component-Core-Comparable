@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Interface FlorianWolters\Component\Core\ComparableInterface | FlorianWolters\Component\Core</title>
+
+	<script type="text/javascript" src="resources/combined.js?819867491"></script>
+	<script type="text/javascript" src="elementlist.js?1307820902"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-FlorianWolters.html">FlorianWolters<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-FlorianWolters.Component.html">Component<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-FlorianWolters.Component.Core.html">Core</a>
+						</li>
+							</ul></li></ul></li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-FlorianWolters.Component.Core.ComparableUtils.html">ComparableUtils</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li class="active"><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">ComparableInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-FlorianWolters.Component.Core.html" title="Summary of FlorianWolters\Component\Core"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="florianwolters-component-core-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+			</li>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Interface ComparableInterface</h1>
+
+
+	<div class="description">
+	
+<p>The interface <code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">FlorianWolters\Component\Core\ComparableInterface</a></code> imposes a <em>total ordering</em> on
+the objects of each class that implements it.</p>
+
+<p>This ordering is referred to as the class's <em>natural ordering</em>, and
+the class's <code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html#_compareTo">FlorianWolters\Component\Core\ComparableInterface::compareTo()</a></code> method is referred to as its <em>natural comparison
+method</em>.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-FlorianWolters.html">FlorianWolters</a>\<a href="namespace-FlorianWolters.Component.html">Component</a>\<a href="namespace-FlorianWolters.Component.Core.html">Core</a><br />
+		
+
+				<b>Copyright:</b>
+				2011-2013 Florian Wolters<br />
+				<b>License:</b>
+				<a href="http://gnu.org/licenses/lgpl.txt">LGPL-3.0+</a><br />
+				<b>Author:</b>
+				Florian Wolters &lt;<a
+href="mailto:wolters.fl&#64;gmail.com">wolters.fl&#64;<!---->gmail.com</a>&gt;<br />
+				<b>Since:</b>
+				Interface available since Release 0.1.0<br />
+				<b>Link:</b>
+				<a href="http://github.com/FlorianWolters/PHP-Component-Comparable">http://github.com/FlorianWolters/PHP-Component-Comparable</a><br />
+		<b>Located at</b> FlorianWolters/Component/Core/ComparableInterface.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="compareTo" id="_compareTo">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_compareTo">#</a>
+		<code>compareTo( <span><code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">FlorianWolters\Component\Core\ComparableInterface</a></code> <var>$other</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Compares this object with the specified object for order.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Compares this object with the specified object for order.</p>
+
+<p>Returns a negative integer, zero, or a positive integer as this object is
+less than, equal to, or greater than the specified object.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$other</var></dt>
+					<dd><code><code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">FlorianWolters\Component\Core\ComparableInterface</a></code></code><br>$other The object to compare with this object.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>A negative integer, zero, or a positive integer as this object is less than,
+equal to, or greater than the specified object.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		FlorianWolters\Component\Core API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

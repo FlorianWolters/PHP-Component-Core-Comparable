@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class FlorianWolters\Component\Core\ComparableUtils | FlorianWolters\Component\Core</title>
+
+	<script type="text/javascript" src="resources/combined.js?819867491"></script>
+	<script type="text/javascript" src="elementlist.js?1307820902"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-FlorianWolters.html">FlorianWolters<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-FlorianWolters.Component.html">Component<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-FlorianWolters.Component.Core.html">Core</a>
+						</li>
+							</ul></li></ul></li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-FlorianWolters.Component.Core.ComparableUtils.html">ComparableUtils</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">ComparableInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-FlorianWolters.Component.Core.html" title="Summary of FlorianWolters\Component\Core"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="florianwolters-component-core-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+			</li>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class ComparableUtils</h1>
+
+
+	<div class="description">
+	
+<p>The static class <code><a href="class-FlorianWolters.Component.Core.ComparableUtils.html">FlorianWolters\Component\Core\ComparableUtils</a></code> offers comparison operations that
+impose a <em>total ordering</em> on objects.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-FlorianWolters.html">FlorianWolters</a>\<a href="namespace-FlorianWolters.Component.html">Component</a>\<a href="namespace-FlorianWolters.Component.Core.html">Core</a><br />
+		
+
+				<b>Copyright:</b>
+				2013 Florian Wolters<br />
+				<b>License:</b>
+				<a href="http://gnu.org/licenses/lgpl.txt">LGPL-3.0+</a><br />
+				<b>Author:</b>
+				Florian Wolters &lt;<a
+href="mailto:wolters.fl&#64;gmail.com">wolters.fl&#64;<!---->gmail.com</a>&gt;<br />
+				<b>Since:</b>
+				Class available since Release 0.1.0<br />
+				<b>Link:</b>
+				<a href="http://github.com/FlorianWolters/PHP-Component-Core-Equality">http://github.com/FlorianWolters/PHP-Component-Core-Equality</a><br />
+		<b>Located at</b> FlorianWolters/Component/Core/ComparableUtils.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="compare" id="_compare">
+
+		<td class="attributes"><code>
+			 public static
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_compare">#</a>
+		<code>compare( <span><code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">FlorianWolters\Component\Core\ComparableInterface</a></code> <var>$first</var> = <span class="php-keyword1">null</span></span>, <span><code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">FlorianWolters\Component\Core\ComparableInterface</a></code> <var>$second</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$nullGreater</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			
+<p>Compares an object with another object for order.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Compares an object with another object for order.</p>
+
+<p>Returns a negative integer, zero, or a positive integer as the first object
+is less than, equal to, or greater than the second object.</p>
+
+<p>The comparison of the objects is <code>null</code>-safe.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code><code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">FlorianWolters\Component\Core\ComparableInterface</a></code>|null</code><br>$first The first object to compare. May be <code>null</code>.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code><code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">FlorianWolters\Component\Core\ComparableInterface</a></code>|null</code><br>$second The second object to compare. May be <code>null</code>.</dd>
+					<dt><var>$nullGreater</var></dt>
+					<dd><code>boolean</code><br>$nullGreater If <code>true</code> <code>null</code> is considered greater than a
+non-<code>null</code> value or if <code>false</code> <code>null</code> is
+considered less than a non-<code>null</code> value.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>A negative integer, zero, or a positive integer as the first object is less
+than, equal to, or greater than the second object.<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html#_compareTo">FlorianWolters\Component\Core\ComparableInterface::compareTo()</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="FIRST_LT_SECOND" id="FIRST_LT_SECOND">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>FIRST_LT_SECOND</b>		</code></td>
+		<td class="value"><code>-<span class="php-num">1</span></code></td>
+		<td class="description"><div>
+			<a href="#FIRST_LT_SECOND" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Value if the first object is less than the second object.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Value if the first object is less than the second object.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="EQUAL" id="EQUAL">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>EQUAL</b>		</code></td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#EQUAL" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Value if the first object is equal to the second object.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Value if the first object is equal to the second object.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="FIRST_GT_SECOND" id="FIRST_GT_SECOND">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>FIRST_GT_SECOND</b>		</code></td>
+		<td class="value"><code><span class="php-num">1</span></code></td>
+		<td class="description"><div>
+			<a href="#FIRST_GT_SECOND" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Value if the first object is greater than the second object.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Value if the first object is greater than the second object.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		FlorianWolters\Component\Core API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
