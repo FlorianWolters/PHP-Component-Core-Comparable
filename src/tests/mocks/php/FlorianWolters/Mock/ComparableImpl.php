@@ -4,16 +4,16 @@ namespace FlorianWolters\Mock;
 use FlorianWolters\Component\Core\ComparableInterface;
 
 /**
- * A mock class for {@link ComparableTraitTest}.
+ * The class {@see ComparableImpl} demonstrates the usage of the interface {@see
+ * ComparableInterface}.
  *
  * @author    Florian Wolters <wolters.fl@gmail.com>
  * @copyright 2013 Florian Wolters
  * @license   http://gnu.org/licenses/lgpl.txt LGPL-3.0+
  * @link      http://github.com/FlorianWolters/PHP-Component-Core-Comparable
- * @see       ComparableTraitTest
  * @since     Class available since Release 0.1.0
  */
-class ComparableImplMock implements ComparableInterface
+class ComparableImpl implements ComparableInterface
 {
     /**
      * The value of this object.
@@ -27,7 +27,8 @@ class ComparableImplMock implements ComparableInterface
      *
      * @param mixed $value The value.
      */
-    public function __construct($value = null) {
+    public function __construct($value = null)
+    {
         $this->value = $value;
     }
 

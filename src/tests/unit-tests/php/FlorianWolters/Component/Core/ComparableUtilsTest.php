@@ -1,10 +1,10 @@
 <?php
 namespace FlorianWolters\Component\Core;
 
-use FlorianWolters\Mock\ComparableImplMock;
+use FlorianWolters\Mock\ComparableImpl;
 
 /**
- * Test class for {@link ComparableUtils}.
+ * Test class for {@see ComparableUtils}.
  *
  * @author    Florian Wolters <wolters.fl@gmail.com>
  * @copyright 2013 Florian Wolters
@@ -12,7 +12,7 @@ use FlorianWolters\Mock\ComparableImplMock;
  * @link      http://github.com/FlorianWolters/PHP-Component-Core-Comparable
  * @since     Class available since Release 0.1.0
  *
- * @covers FlorianWolters\Component\Core\ComparableUtils
+ * @covers    FlorianWolters\Component\Core\ComparableUtils
  */
 class ComparableUtilsTest extends \PHPUnit_Framework_TestCase
 {
@@ -21,38 +21,40 @@ class ComparableUtilsTest extends \PHPUnit_Framework_TestCase
      */
     public static function providerCompare()
     {
-        $objWithNullValue = new ComparableImplMock;
-        $firstObjWithValue = new ComparableImplMock(13);
-        $secondObjWithValue = new ComparableImplMock(42);
+        $objWithNullValue = new ComparableImpl;
+        $firstObjWithValue = new ComparableImpl(13);
+        $secondObjWithValue = new ComparableImpl(42);
 
-        return [
-            // First is equal to second.
-            [ComparableUtils::EQUAL, null, null],
-            [ComparableUtils::EQUAL, $objWithNullValue, $objWithNullValue],
-            [ComparableUtils::EQUAL, $firstObjWithValue, $firstObjWithValue],
-            // First is less than second.
-            [ComparableUtils::FIRST_LT_SECOND, null, $objWithNullValue],
-            [
+        return array( // First is equal to second.
+            array(ComparableUtils::EQUAL, null, null),
+            array(ComparableUtils::EQUAL, $objWithNullValue, $objWithNullValue),
+            array(
+                ComparableUtils::EQUAL,
+                $firstObjWithValue,
+                $firstObjWithValue
+            ), // First is less than second.
+            array(ComparableUtils::FIRST_LT_SECOND, null, $objWithNullValue),
+            array(
                 ComparableUtils::FIRST_LT_SECOND,
                 $objWithNullValue,
                 $firstObjWithValue
-            ], [
+            ), array(
                 ComparableUtils::FIRST_LT_SECOND,
                 $firstObjWithValue,
                 $secondObjWithValue
-            ],
+            ),
             // First is greater than second.
-            [ComparableUtils::FIRST_GT_SECOND, $objWithNullValue, null],
-            [
+            array(ComparableUtils::FIRST_GT_SECOND, $objWithNullValue, null),
+            array(
                 ComparableUtils::FIRST_GT_SECOND,
                 $firstObjWithValue,
                 $objWithNullValue
-            ], [
+            ), array(
                 ComparableUtils::FIRST_GT_SECOND,
                 $secondObjWithValue,
                 $firstObjWithValue
-            ]
-        ];
+            )
+        );
     }
 
     /**
