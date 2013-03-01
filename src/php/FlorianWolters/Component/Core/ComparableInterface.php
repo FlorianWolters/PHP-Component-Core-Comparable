@@ -2,11 +2,11 @@
 namespace FlorianWolters\Component\Core;
 
 /**
- * The interface {@link ComparableInterface} imposes a *total ordering* on the
+ * The interface {@see ComparableInterface} imposes a *total ordering* on the
  * objects of each class that implements it.
  *
  * This ordering is referred to as the class's *natural ordering*, and the
- * class's {@link compareTo} method is referred to as its *natural comparison
+ * class's {@see compareTo} method is referred to as its *natural comparison
  * method*.
  *
  * @author    Florian Wolters <wolters.fl@gmail.com>

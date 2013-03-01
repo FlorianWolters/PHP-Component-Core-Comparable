@@ -2,7 +2,7 @@
 namespace FlorianWolters\Component\Core;
 
 /**
- * The static class {@link ComparableUtils} offers comparison operations that
+ * The static class {@see ComparableUtils} offers comparison operations that
  * impose a *total ordering* on objects.
  *
  * @author    Florian Wolters <wolters.fl@gmail.com>
@@ -37,7 +37,7 @@ class ComparableUtils
     // @codeCoverageIgnoreStart
 
     /**
-     * {@link ComparableUtils} instances can **NOT** be constructed in standard
+     * {@see ComparableUtils} instances can **NOT** be constructed in standard
      * programming.
      *
      * Instead, the class should be used as:
