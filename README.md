@@ -44,7 +44,7 @@ This component is inspired by the following three artifacts of the [Java][26] pr
 
 ## Requirements
 
-* [PHP][17] >= 5.3
+* [PHP][17] >= 5.4
 
 ## Installation
 
