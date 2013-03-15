@@ -11,7 +11,7 @@ namespace FlorianWolters\Component\Core;
  * @link      http://github.com/FlorianWolters/PHP-Component-Core-Equality
  * @since     Class available since Release 0.1.0
  */
-class ComparableUtils
+final class ComparableUtils
 {
     /**
      * Value if the first object is less than the second object.
@@ -45,7 +45,7 @@ class ComparableUtils
      * ComparableUtils::compare($firstObject, $secondObject);
      * \---
      */
-    private function __construct()
+    protected function __construct()
     {
     }
 
@@ -73,6 +73,8 @@ class ComparableUtils
      * @return integer A negative integer, zero, or a positive integer as the
      *                 first object is less than, equal to, or greater than the
      *                 second object.
+     * @throws ClassCastException If the arguments' types prevent them from
+     *                            being compared.
      * @see ComparableInterface::compareTo
      */
     public static function compare(
