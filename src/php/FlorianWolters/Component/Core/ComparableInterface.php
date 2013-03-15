@@ -28,6 +28,9 @@ interface ComparableInterface
      * @return integer A negative integer, zero, or a positive integer as this
      *                 object is less than, equal to, or greater than the
      *                 specified object.
+     *
+     * @throws ClassCastException If the specified object's type prevents it
+     *                            from being compared to this object.
      */
     public function compareTo(self $other);
 }
