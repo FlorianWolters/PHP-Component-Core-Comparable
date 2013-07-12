@@ -7,7 +7,7 @@
 	<title>Class FlorianWolters\Component\Core\ComparableUtils | FlorianWolters\Component\Core</title>
 
 	<script type="text/javascript" src="resources/combined.js?819867491"></script>
-	<script type="text/javascript" src="elementlist.js?1307820902"></script>
+	<script type="text/javascript" src="elementlist.js?522451264"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
 
 </head>
@@ -28,6 +28,8 @@
 				<li class="active"><a href="namespace-FlorianWolters.Component.Core.html">Core</a>
 						</li>
 							</ul></li></ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
 			</ul>
 		</div>
 
@@ -46,6 +48,10 @@
 			</ul>
 
 
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-FlorianWolters.Component.Core.ClassCastException.html">ClassCastException</a></li>
+			</ul>
 
 
 		</div>
@@ -106,7 +112,7 @@ impose a <em>total ordering</em> on objects.</p>
 
 
 	<div class="info">
-		
+		<b>Final</b><br />
 		
 		<b>Namespace:</b> <a href="namespace-FlorianWolters.html">FlorianWolters</a>\<a href="namespace-FlorianWolters.Component.html">Component</a>\<a href="namespace-FlorianWolters.Component.Core.html">Core</a><br />
 		
@@ -129,6 +135,46 @@ href="mailto:wolters.fl&#64;gmail.com">wolters.fl&#64;<!---->gmail.com</a>&gt;<b
 
 	<table class="summary" id="methods">
 	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( )</code>
+
+		<div class="description short">
+			
+<p><code><a href="class-FlorianWolters.Component.Core.ComparableUtils.html">FlorianWolters\Component\Core\ComparableUtils</a></code> instances can <strong>NOT</strong> be constructed in
+standard programming.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p><code><a href="class-FlorianWolters.Component.Core.ComparableUtils.html">FlorianWolters\Component\Core\ComparableUtils</a></code> instances can <strong>NOT</strong> be constructed in
+standard programming.</p>
+
+<p>Instead, the class should be used as:</p>
+
+<pre
+class="php"><code>ComparableUtils::compare($firstObject, $secondObject);</code></pre>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
 	<tr data-order="compare" id="_compare">
 
 		<td class="attributes"><code>
@@ -177,6 +223,10 @@ considered less than a non-<code>null</code> value.</dd>
 than, equal to, or greater than the second object.<br />
 				</div>
 
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FlorianWolters.Component.Core.ClassCastException.html">FlorianWolters\Component\Core\ClassCastException</a></code></code><br>If the arguments' types prevent them from being compared.<br />
+				</div>
 
 				<h4>See</h4>
 				<div class="list">

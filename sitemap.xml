@@ -12,6 +12,9 @@
 <url>
 	<loc>http://florianwolters.github.com/PHP-Component-Core-Comparable/namespace-FlorianWolters.Component.Core.html</loc>
 </url>
+<url>
+	<loc>http://florianwolters.github.com/PHP-Component-Core-Comparable/namespace-PHP.html</loc>
+</url>
 
 
 <url>
@@ -19,5 +22,14 @@
 </url>
 <url>
 	<loc>http://florianwolters.github.com/PHP-Component-Core-Comparable/class-FlorianWolters.Component.Core.ComparableInterface.html</loc>
+</url>
+<url>
+	<loc>http://florianwolters.github.com/PHP-Component-Core-Comparable/class-Exception.html</loc>
+</url>
+<url>
+	<loc>http://florianwolters.github.com/PHP-Component-Core-Comparable/class-FlorianWolters.Component.Core.ClassCastException.html</loc>
+</url>
+<url>
+	<loc>http://florianwolters.github.com/PHP-Component-Core-Comparable/class-RuntimeException.html</loc>
 </url>
 </urlset>

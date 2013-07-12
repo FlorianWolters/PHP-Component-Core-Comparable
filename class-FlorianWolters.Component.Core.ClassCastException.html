@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="generator" content="ApiGen 2.8.0" />
 
-	<title>Interface FlorianWolters\Component\Core\ComparableInterface | FlorianWolters\Component\Core</title>
+	<title>Class FlorianWolters\Component\Core\ClassCastException | FlorianWolters\Component\Core</title>
 
 	<script type="text/javascript" src="resources/combined.js?819867491"></script>
 	<script type="text/javascript" src="elementlist.js?522451264"></script>
@@ -44,13 +44,13 @@
 
 			<h3>Interfaces</h3>
 			<ul>
-				<li class="active"><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">ComparableInterface</a></li>
+				<li><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">ComparableInterface</a></li>
 			</ul>
 
 
 			<h3>Exceptions</h3>
 			<ul>
-				<li><a href="class-FlorianWolters.Component.Core.ClassCastException.html">ClassCastException</a></li>
+				<li class="active"><a href="class-FlorianWolters.Component.Core.ClassCastException.html">ClassCastException</a></li>
 			</ul>
 
 
@@ -93,20 +93,37 @@
 	</div>
 
 <div id="content" class="class">
-	<h1>Interface ComparableInterface</h1>
+	<h1>Class ClassCastException</h1>
 
 
 	<div class="description">
 	
-<p>The interface <code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">FlorianWolters\Component\Core\ComparableInterface</a></code> imposes a <em>total ordering</em> on
-the objects of each class that implements it.</p>
-
-<p>This ordering is referred to as the class's <em>natural ordering</em>, and
-the class's <code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html#_compareTo">FlorianWolters\Component\Core\ComparableInterface::compareTo()</a></code> method is referred to as its <em>natural comparison
-method</em>.</p>
+<p>Thrown to indicate that the code has attempted to cast an object to a
+subclass of which it is not an instance.</p>
 
 	</div>
 
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Exception.html"><span>Exception</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-RuntimeException.html"><span>RuntimeException</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>FlorianWolters\Component\Core\ClassCastException</span></b>			
+			
+			
+		</dd>
+	</dl>
 
 
 
@@ -129,65 +146,29 @@ method</em>.</p>
 				Florian Wolters &lt;<a
 href="mailto:wolters.fl&#64;gmail.com">wolters.fl&#64;<!---->gmail.com</a>&gt;<br />
 				<b>Since:</b>
-				Interface available since Release 0.1.0<br />
+				Class available since Release 0.2.0<br />
 				<b>Link:</b>
 				<a href="http://github.com/FlorianWolters/PHP-Component-Comparable">http://github.com/FlorianWolters/PHP-Component-Comparable</a><br />
-		<b>Located at</b> FlorianWolters/Component/Core/ComparableInterface.php<br />
+		<b>Located at</b> FlorianWolters/Component/Core/ClassCastException.php<br />
 	</div>
 
 
 
-	<table class="summary" id="methods">
-	<caption>Methods summary</caption>
-	<tr data-order="compareTo" id="_compareTo">
 
-		<td class="attributes"><code>
-			 public 
-			integer
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_compareTo">#</a>
-		<code>compareTo( <span><code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">FlorianWolters\Component\Core\ComparableInterface</a></code> <var>$other</var></span> )</code>
-
-		<div class="description short">
-			
-<p>Compares this object with the specified object for order.</p>
-
-		</div>
-
-		<div class="description detailed hidden">
-			
-<p>Compares this object with the specified object for order.</p>
-
-<p>Returns a negative integer, zero, or a positive integer as this object is
-less than, equal to, or greater than the specified object.</p>
-
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$other</var></dt>
-					<dd><code><code><a href="class-FlorianWolters.Component.Core.ComparableInterface.html">FlorianWolters\Component\Core\ComparableInterface</a></code></code><br>$other The object to compare with this object.</dd>
-				</dl></div>
-
-				<h4>Returns</h4>
-				<div class="list">
-					<code>integer</code><br>A negative integer, zero, or a positive integer as this object is less than,
-equal to, or greater than the specified object.<br />
-				</div>
-
-				<h4>Throws</h4>
-				<div class="list">
-					<code><code><a href="class-FlorianWolters.Component.Core.ClassCastException.html">FlorianWolters\Component\Core\ClassCastException</a></code></code><br>If the specified object's type prevents it from being compared to this object.<br />
-				</div>
-
-
-
-		</div>
-		</div></td>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Exception.html#methods">Exception</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Exception.html#___construct">__construct()</a>, 
+			<a href="class-Exception.html#___toString">__toString()</a>, 
+			<a href="class-Exception.html#_getCode">getCode()</a>, 
+			<a href="class-Exception.html#_getFile">getFile()</a>, 
+			<a href="class-Exception.html#_getLine">getLine()</a>, 
+			<a href="class-Exception.html#_getMessage">getMessage()</a>, 
+			<a href="class-Exception.html#_getPrevious">getPrevious()</a>, 
+			<a href="class-Exception.html#_getTrace">getTrace()</a>, 
+			<a href="class-Exception.html#_getTraceAsString">getTraceAsString()</a>
+		</code></td>
 	</tr>
 	</table>
 
@@ -202,7 +183,17 @@ equal to, or greater than the specified object.<br />
 
 
 
-
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Exception.html#properties">Exception</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Exception.html#$code"><var>$code</var></a>, 
+			<a href="class-Exception.html#$file"><var>$file</var></a>, 
+			<a href="class-Exception.html#$line"><var>$line</var></a>, 
+			<a href="class-Exception.html#$message"><var>$message</var></a>
+		</code></td>
+	</tr>
+	</table>
 
 
 
