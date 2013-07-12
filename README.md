@@ -1,6 +1,8 @@
 # FlorianWolters\Component\Core\Comparable
 
 [![Build Status](https://secure.travis-ci.org/FlorianWolters/PHP-Component-Core-Comparable.png?branch=master)](http://travis-ci.org/FlorianWolters/PHP-Component-Core-Comparable)
+[![Dependency Status](https://www.versioneye.com/user/projects/51c330f0007fcd000200042c/badge.png)](https://www.versioneye.com/user/projects/51c330f0007fcd000200042c)
+[![Scrutinizer](https://scrutinizer-ci.com/images/brand-navbar.png)](https://scrutinizer-ci.com/g/FlorianWolters/PHP-Component-Core-Cloneable/inspections)
 
 **FlorianWolters\Component\Core\Comparable** is a simple-to-use [PHP][17] component that imposes a total ordering on objects.
 
@@ -80,7 +82,7 @@ If you are creating a component that relies on **FlorianWolters\Component\Core\C
 ```json
 {
     "require": {
-        "florianwolters/component-core-comparable": "0.1.*"
+        "florianwolters/component-core-comparable": "0.2.*"
     }
 }
 ```
@@ -95,8 +97,8 @@ If you are creating a component that relies on **FlorianWolters\Component\Core\C
     <package>
       <name>Comparable</name>
       <channel>pear.florianwolters.de</channel>
-      <min>0.1.0</min>
-      <max>0.1.99</max>
+      <min>0.2.0</min>
+      <max>0.2.99</max>
     </package>
   </required>
 </dependencies>
