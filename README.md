@@ -1,8 +1,8 @@
 # FlorianWolters\Component\Core\Comparable
 
 [![Build Status](https://secure.travis-ci.org/FlorianWolters/PHP-Component-Core-Comparable.png?branch=master)](http://travis-ci.org/FlorianWolters/PHP-Component-Core-Comparable)
-[![Dependency Status](https://www.versioneye.com/user/projects/51c330f0007fcd000200042c/badge.png)](https://www.versioneye.com/user/projects/51c330f0007fcd000200042c)
-[![Scrutinizer](https://scrutinizer-ci.com/images/brand-navbar.png)](https://scrutinizer-ci.com/g/FlorianWolters/PHP-Component-Core-Cloneable/inspections)
+[![Dependency Status](https://www.versioneye.com/user/projects/51c330f15862c4000200053c/badge.png)](http://www.versioneye.com/user/projects/51c330f15862c4000200053c)
+[![Scrutinizer](https://scrutinizer-ci.com/images/brand-navbar.png)](https://scrutinizer-ci.com/g/FlorianWolters/PHP-Component-Core-Comparable/inspections)
 
 **FlorianWolters\Component\Core\Comparable** is a simple-to-use [PHP][17] component that imposes a total ordering on objects.
 
